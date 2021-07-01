@@ -16,6 +16,7 @@ body {
   opacity: 0.9;
 }
 
+/*  Header  */
 header {
   position: fixed;
   height: 69px;
@@ -33,7 +34,6 @@ nav a {
   padding: 22px;
   color: seashell;
   float: left;
-  text-align: center;
 }
 
 header img {
@@ -42,7 +42,7 @@ header img {
   padding: 10px 0;
 }
 
-
+/*  Mission  */
 .banner {
   background-color: black;
   top: 50%;
@@ -60,6 +60,40 @@ header img {
   margin: 0 auto;
 }
 
+/*  Featured-Tea  */
+figure {
+  margin: 10px;
+}
+
+figure img {
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.content {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+#featured-tea {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+#featured-tea h1, h2 {
+  text-align: center;
+}
+
+/*  Locations  */
 #locations {
   background-image: url("../resources/img-locations-background.jpg");
 }
